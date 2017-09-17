@@ -1,5 +1,5 @@
-// 去掉数组中为false的值
-const compact = (arr) => {
+// 数组联结
+const concat = (arr) => {
   let resIndex = 0
   const result = []
 
@@ -14,6 +14,6 @@ const compact = (arr) => {
   return result
 }
 
-// console.log(compact([false, '', 1, 0, null, undefined, 2, 'a']))
+// console.log(concat([false, '', 1, 0, null, undefined, 2, 'a']))
 
-export default compact
+export default concat
